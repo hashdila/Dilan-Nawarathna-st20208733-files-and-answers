@@ -1,0 +1,14 @@
+CREATE TABLE public."MYData"
+(
+	Districts character varying(100),
+	No_of_Sheds integer,
+	Gasoline_SD integer,
+	Gasoline_Mean integer,
+	Diesel_SD integer,
+	Diesel_Mean integer,
+	Code integer
+)
+
+
+
+SELECT * FROM public."MYData"
